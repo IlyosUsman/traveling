@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>JS speed</title>
+</head>
+<body>
+
+    <section class="header">
+        <div class="container header__box">
+            
+            <form action="https://echo.htmlacademy.ru/" class="header__form" id="form" method="GET" name="header__form-user">
+                <h2 class="header__form-text">Enter the distance</h2>
+                <div class="header__form-box">
+                    <input type="number" placeholder="km" class="header__form-input" name="header__form-user-input" id="input" required>
+
+                </div>
+                <div class="header__form-button">
+                    <button type="submit" id="button" name="header__form-button">
+                        Send
+                    </button>
+
+                </div>
+            </form>
+
+            <ul class="header__item">
+                <li class="header__item-list">
+                    <img src="./images/walking.png" alt="walker" class="header__item-list-image" width="150" height="150"> </img>
+                    <p class="header__item-list-text-first">
+                        Walk
+                    </p>
+                    <p class="header__item-list-first-time-text" id="resultWalker">
+                        0 
+                    </p>
+                </li>
+                <li class="header__item-list">
+                    <img src="./images/bicycle.png" alt="biker" class="header__item-list-image" width="150" height="150">
+                    <p class="header__item-list-text-second">
+                        Biker
+                    </p>
+                    <p class="header__item-list-second-time-text" id="resultBike">
+                        0 
+                    </p>
+                </li>
+                <li class="header__item-list">
+                    <img src="./images/carr.png" alt="car" class="header__item-list-image" width="150" height="150">
+                    <p class="header__item-list-text-third">
+                        Car
+                    </p>
+                    <p class="header__item-list-third-time-text" id="resultCar">
+                        0 
+                    </p>
+                </li>
+                <li class="header__item-list">
+                    <img src="./images/plane.png" alt="plane" class="header__item-list-image" width="150" height="150">
+                    <p class="header__item-list-text-fourth">
+                        Plane
+                    </p>
+                    <p class="header__item-list-fourth-time-text" id="resultPlane">
+                        0 
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
